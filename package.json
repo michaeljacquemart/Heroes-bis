@@ -9,7 +9,7 @@
     "scss": "node-sass --watch style/scss -o style/css",
     "build-prod": "parcel build index.html",
     "build-tsc": "tsc -p ./",
-    "build-babel":"babel src -d lib",
+    "build-babel": "babel src -d lib",
     "start": "npm run build -- -w"
   },
   "repository": {
@@ -21,7 +21,7 @@
     "typescript",
     "comics"
   ],
-  "author": "Michael et Gus",
+  "author": "Victor et Anne-So",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AugustinDumont/Character-Manager/issues"
