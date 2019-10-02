@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10vw;
+}
+body #logo {
+  min-height: 15vh;
+}
+body #character_list {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  margin: none;
+  background-color: lightgrey;
+  width: 80vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+li {
+  width: 20vw;
+}
+
+/*# sourceMappingURL=style.css.map */

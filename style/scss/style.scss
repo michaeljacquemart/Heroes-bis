@@ -15,9 +15,10 @@ body {
 
 ul {
   margin:none;
-  background-color: #F4F4F4;
+  background-color: lightgrey;
   width: 80vw;
   flex-direction: row;
+  flex-wrap : wrap;
   list-style-type: none;
 }
 
