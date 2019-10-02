@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10vw;
+
+  #logo {
+    min-height: 15vh;
+  }
+  #character_list {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+ul {
+  margin:none;
+  background-color: #F4F4F4;
+  width: 80vw;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  width: 20vw;
+}
